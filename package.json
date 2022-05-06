@@ -1,0 +1,27 @@
+{
+  "name": "planet",
+  "version": "1.0.0",
+  "description": "Rumble worlds planet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manul",
+  "license": "ISC",
+  "dependencies": {
+    "three": "^0.136.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hellsingh/Planet.git"
+  },
+  "keywords": [
+    "planet",
+    "rumbleworlds"
+  ],
+  "bugs": {
+    "url": "https://github.com/Hellsingh/Planet/issues"
+  },
+  "homepage": "https://github.com/Hellsingh/Planet#readme"
+}

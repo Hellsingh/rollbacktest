@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Affi First Web app</title>
+		<style>
+			body { 
+				margin: 0; 
+				width : 100%; 
+				height: 100%; 
+				/* background-image: url('assets/background.png');  */
+			}
+			canvas { width: 100vw; height: 100vh; display: block; }
+			.background {
+				width: 100vw;
+				height: 100vh;
+    			/* max-height: 110vh; */
+    			object-fit: cover;
+    			overflow: hidden;
+    			filter: saturate(0.35) contrast(1.05);
+
+    			@media only screen and (min-width: 1110px) {
+      			width: 100%;
+    			}
+  			}
+			#planet-holder{
+				position: absolute;
+				top: 0%;
+			}
+		</style>
+	</head>
+	<body>
+		<script src="js/three.js"></script>
+		<script src="js/GLTFLoader.js"></script>
+		<script src="js/OrbitControls.js"></script>
+		<script src="js/OBJLoader.js"></script>
+		<!-- <script src="js/index.js"></script> -->
+		<!-- <div id="planet-holder">
+			<img class="background" src="assets/background.png" alt="background" />
+		</div> -->
+		<script src="js/planet.js"></script>
+	</body>
+</html>
